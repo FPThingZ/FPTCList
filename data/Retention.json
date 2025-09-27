@@ -8,5 +8,11 @@
     "percentToQualify": 100,
     "password": "Copyable",
 "records": [
+    {
+            "user": "Retention",
+            "link": "https://youtu.be/I9bptynQXB8",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
