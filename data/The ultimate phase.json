@@ -8,11 +8,12 @@
     "percentToQualify": 100,
     "password": "Copyable",
     "records": [
-    ]
-    {
+        {
             "user": "Elytra",
             "link": "https://youtu.be/jIENVhZyrLA?si=NABK_aasbBj4Q8rq",
             "percent": 100,
             "hz": 144
         }
+    ]
+    
 }
