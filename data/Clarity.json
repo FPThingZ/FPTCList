@@ -8,5 +8,11 @@
     "percentToQualify": 100,
     "password": "Copyable",
     "records": [
+     {
+            "user": "Filipprothings",
+            "link": "https://youtu.be/iYfhA33j1fY?si=r6q88nKvPsQLDwXD",
+            "percent": 100,
+            "hz": 144
+        }
     ]
 }
