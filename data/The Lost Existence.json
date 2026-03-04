@@ -8,5 +8,11 @@
     "percentToQualify": 100,
     "password": "Copyable",
     "records": [
+        {
+            "user": "nairda",
+            "link": "https://youtu.be/EtV5VgM8XnU?si=3yarpX5WXrFKADFS",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
