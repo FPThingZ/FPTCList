@@ -8,5 +8,11 @@
     "percentToQualify": 100,
     "password": "Copyable",
     "records": [
+        {
+            "user": "Eg",
+            "link": "https://youtu.be/9YMgSVop5Uc?si=Mno2RbkAmNdoGEKp",
+            "percent": 100,
+            "hz": 240
+        }
     ]
 }
