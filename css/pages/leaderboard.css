@@ -91,3 +91,28 @@
 .page-leaderboard .player .table a:hover {
     text-decoration: underline;
 }
+
+.tab-buttons {
+    padding: 1rem 1rem 0;
+}
+
+.tab-btn {
+    padding: 0.5rem 1.25rem;
+    border: 2px solid var(--clr-primary, #888);
+    border-radius: 0.4rem;
+    background: transparent;
+    color: inherit;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.15s, color 0.15s;
+}
+
+.tab-btn:hover {
+    background: var(--clr-primary, #888);
+    color: #fff;
+}
+
+.tab-btn.active {
+    background: var(--clr-primary, #888);
+    color: #fff;
+}
