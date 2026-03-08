@@ -1,4 +1,4 @@
-import { fetchLeaderboard, fetchUnratedLeaderboard, fetchCombinedLeaderboard } from '../content.js';
+import { fetchLeaderboard } from '../content.js';
 import { localize } from '../util.js';
 
 import Spinner from '../components/Spinner.js';
@@ -12,13 +12,6 @@ export default {
         loading: true,
         selected: 0,
         err: [],
-        tab: 'rated',
-        ratedBoard: [],
-        unratedBoard: [],
-        combinedBoard: [],
-        ratedErr: [],
-        unratedErr: [],
-        combinedErr: [],
     }),
     template: `
         <main v-if="loading">
@@ -26,11 +19,6 @@ export default {
         </main>
         <main v-else class="page-leaderboard-container">
             <div class="page-leaderboard">
-                <div class="tab-buttons" style="display:flex;gap:0.5rem;margin-bottom:1rem;">
-                    <button @click="switchTab('rated')" :class="{ active: tab === 'rated' }" class="tab-btn">Rated</button>
-                    <button @click="switchTab('unrated')" :class="{ active: tab === 'unrated' }" class="tab-btn">Unrated</button>
-                    <button @click="switchTab('combined')" :class="{ active: tab === 'combined' }" class="tab-btn">Combined</button>
-                </div>
                 <div class="error-container">
                     <p class="error" v-if="err.length > 0">
                         Leaderboard may be incorrect, as the following levels could not be loaded: {{ err.join(', ') }}
@@ -110,33 +98,13 @@ export default {
         },
     },
     async mounted() {
-        const [[rated, ratedErr], [unrated, unratedErr], [combined, combinedErr]] =
-            await Promise.all([fetchLeaderboard(), fetchUnratedLeaderboard(), fetchCombinedLeaderboard()]);
-        this.ratedBoard = rated;
-        this.unratedBoard = unrated;
-        this.combinedBoard = combined;
-        this.ratedErr = ratedErr;
-        this.unratedErr = unratedErr;
-        this.combinedErr = combinedErr;
-        this.leaderboard = rated;
-        this.err = ratedErr;
+        const [leaderboard, err] = await fetchLeaderboard();
+        this.leaderboard = leaderboard;
+        this.err = err;
+        // Hide loading spinner
         this.loading = false;
     },
     methods: {
         localize,
-        switchTab(tab) {
-            this.tab = tab;
-            this.selected = 0;
-            if (tab === 'rated') {
-                this.leaderboard = this.ratedBoard;
-                this.err = this.ratedErr;
-            } else if (tab === 'unrated') {
-                this.leaderboard = this.unratedBoard;
-                this.err = this.unratedErr;
-            } else {
-                this.leaderboard = this.combinedBoard;
-                this.err = this.combinedErr;
-            }
-        },
     },
 };
