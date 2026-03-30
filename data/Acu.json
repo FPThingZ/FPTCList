@@ -43,6 +43,12 @@
             "link": "https://www.youtube.com/watch?v=ys4ZLc-FsT0",
             "percent": 100,
             "hz": 240
+        },
+        {
+            "user": "zlati",
+            "link": "https://youtu.be/kUNbgONtX7k?si=7FdA56OmGAPpXToK",
+            "percent": 100,
+            "hz": 144
         }
     ]
 }
