@@ -8,5 +8,11 @@
     "percentToQualify": 100,
     "password": "Copyable",
     "records": [
+        {
+            "user": "zlati",
+            "link": "https://youtu.be/U87BcvnNNcE?si=v6YmD8HX7Bk-J2IT",
+            "percent": 100,
+            "hz": 144
+        }
     ]
 }
