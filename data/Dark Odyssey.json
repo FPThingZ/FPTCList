@@ -8,5 +8,11 @@
     "percentToQualify": 100,
     "password": "Copyable",
     "records": [
+          {
+            "user": "Meridiem",
+            "link": "https://youtu.be/wslCHR38Gj8?si=Qpe6fx0IxmWLwXJM",
+            "percent": 100,
+            "hz": 120
+        }
     ]
 }
