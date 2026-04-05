@@ -8,5 +8,11 @@
     "percentToQualify": 100,
     "password": "Copyable",
     "records": [
+        {
+            "user": "Ayueshi",
+            "link": "https://youtu.be/DVpyVazFM9M?si=X0H2S7Q7gEKomSfT",
+            "percent": 100,
+            "hz": 60
+        }
     ]
 }
