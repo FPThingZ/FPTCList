@@ -100,13 +100,15 @@ export default {
                     </template>
                     <h3>Submission Requirements</h3>
                     <p>
-                        Achieved the record without using hacks (however, FPS bypass is allowed, up to 360fps)
+                        Record has to be legit. Any form of CBF is allowed. FPS Bypass is allowed as long as it doesn't break the game (~480 fps if you use Megahack
+                        and any fps if you use vanilla 2.2).
                     </p>
                     <p>
-                        Achieved the record on the level that is listed on the site - please check the level ID before you submit a record
+                        Achieved the record on the level that is listed on the site. If you have any LDM used, that can be accepted too as long as it doesn't nerf the level 
+                        too much.
                     </p>
                     <p>
-                        Have either source audio or clicks/taps in the video. Edited audio only does not count
+                        Have either source audio or clicks/taps in the video. Edited audio only can count if it was screenshared and can be proven by someone.
                     </p>
                     <p>
                         The recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt. Everyplay records are exempt from this
@@ -119,9 +121,6 @@ export default {
                     </p>
                     <p>
                         Do not use easy modes, only a record of the unmodified level qualifies
-                    </p>
-                    <p>
-                        Once a level falls onto the Legacy List, we accept records for it for 24 hours after it falls off, then afterwards we never accept records for said level
                     </p>
                 </div>
             </div>
