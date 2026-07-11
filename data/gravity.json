@@ -1,6 +1,6 @@
 {
     "id": 63775846,
-    "name": "Gravity",
+    "name": "gravity",
     "author": "IcEDCave",
     "creators": ["Kaza"],
     "verifier": "lexy",
@@ -13,6 +13,13 @@
             "link": "https://youtu.be/-uX58enVmWE?si=N6RGlfcuYE63Aiv9",
             "percent": 100,
             "hz": 60
-        }   
-    ]
+        },
+
+{
+            "user": "cisco",
+            "link": "https://www.youtube.com/watch?v=fH2JVKJ3NYM&list=PL8TypJcTz-GNdKVOt_paqPG76g8KKr1R1&index=5",
+            "percent": 100,
+            "hz": 240
+        }  
+   ]
 }
