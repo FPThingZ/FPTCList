@@ -4,9 +4,15 @@
     "author": "Angel669",
     "creators": ["Angel669"],
     "verifier": "Alice",
-    "verification": "https://www.youtube.com/watch?v=LBG7Ezc3twk",
+    "verification": "https://www.youtube.com/watch?v=IoOwAUKIqHE",
     "percentToQualify": 100,
     "password": "Copyable",
     "records": [
+        {
+            "user": "lexy",
+            "link": "https://www.youtube.com/watch?v=u8o2fqC80iQ",
+            "percent": 100,
+            "hz": 60
+        }
     ]
 }
