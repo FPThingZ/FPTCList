@@ -3,7 +3,7 @@
     "name": "KISMET",
     "author": "ciibule",
     "creators": ["ciibule"],
-    "verifier": "ciibule",
+    "verifier": "cisco",
     "verification": "https://youtu.be/Gdi0Z3ucv4c?si=fp_PwRSjwyDTIRRx",
     "percentToQualify": 100,
     "password": "Copyable",
