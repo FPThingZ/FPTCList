@@ -1,0 +1,18 @@
+{
+    "id": 144423287,
+    "name": "KISMET",
+    "author": "ciibule",
+    "creators": ["ciibule"],
+    "verifier": "ciibule",
+    "verification": "https://youtu.be/Gdi0Z3ucv4c?si=fp_PwRSjwyDTIRRx",
+    "percentToQualify": 100,
+    "password": "Copyable",
+    "records": [
+      {
+            "user": "nairda",
+            "link": "https://youtu.be/b5v0o_uf4Js?si=ydGIjOGEmNPb5QAM",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
