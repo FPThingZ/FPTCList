@@ -1,5 +1,5 @@
 {
-    "id": 87489628,
+    "id": 45094581,
     "name": "Delta interface",
     "author": "Platnuu",
     "creators": ["Platnuu"],
@@ -9,4 +9,12 @@
     "password": "Copyable",
     "records": [
     ]
+
+{
+            "user": "NatanGMD",
+            "link": "https://youtu.be/CybFHuWY1RI?si=7-jjGDltHwEU_4v6",
+            "percent": 100,
+            "hz": 240
+        }
+]
 }
