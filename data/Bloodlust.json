@@ -8,5 +8,11 @@
     "percentToQualify": 100,
     "password": "Copyable",
     "records": [
+        {
+            "user": "Auzenthic",
+            "link": "https://youtu.be/XxjniH2jt1k?si=hCLkQhiCqNB-xuRQ",
+            "percent": 100,
+            "hz": 480
+        }
     ]
 }
